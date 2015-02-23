@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://blog.kapfi.ch"
 twitter_username: skapfi
 github_username:  stefan-ka
-facebook_username:  ""
+linkedin_username:  stefankapferer
 
 # Build settings
 markdown: kramdown
