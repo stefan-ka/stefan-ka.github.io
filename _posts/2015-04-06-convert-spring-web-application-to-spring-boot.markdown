@@ -5,6 +5,7 @@ subtitle:   "Convert existing Spring MVC application to Spring Boot"
 date:       2015-04-06 17:00:00
 author:     "Stefan Kapferer"
 header-img: "img/042015-convert-spring-mvc-to-spring-boot-bg.jpg"
+tags:       [java, spring, spring-boot, spring-mvc]
 ---
 
 ## Convert an existing Spring MVC application to Spring Boot
