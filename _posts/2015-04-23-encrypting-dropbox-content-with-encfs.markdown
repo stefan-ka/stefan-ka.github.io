@@ -92,7 +92,7 @@ I used [Encdroid](https://play.google.com/store/apps/details?id=org.mrpdaemon.an
 
 When you have started the app you can link the app with your Dropbox Account under the settings menu "Accounts".
 Then you can import the volume with the "Import Volume" Menu:
-<div markdown style="float:left;padding-bottom:20px;">
+<div style="float:left;padding-bottom:20px;">
 	<img src="/media/042015-Encrypting-Dropbox-Content-AndroidShot1.png" style="float:left; padding:10px 10px 0px 0px;" />
 	<img src="/media/042015-Encrypting-Dropbox-Content-AndroidShot2.png" style="float:left; padding:10px 10px 0px 0px;" />
 	<img src="/media/042015-Encrypting-Dropbox-Content-AndroidShot3.png" style="float:left; padding:10px 10px 0px 0px;" />
@@ -100,7 +100,7 @@ Then you can import the volume with the "Import Volume" Menu:
 </div>
 
 Now open the volume, enter the password, and you can access your files:
-<div markdown style="float:left;padding-bottom:20px;">
+<div style="float:left;padding-bottom:20px;">
 	<img src="/media/042015-Encrypting-Dropbox-Content-AndroidShot5.png" style="float:left; padding:10px 10px 0px 0px;" />
 	<img src="/media/042015-Encrypting-Dropbox-Content-AndroidShot6.png" style="float:left; padding:10px 10px 0px 0px;" />
 	<img src="/media/042015-Encrypting-Dropbox-Content-AndroidShot7.png" style="float:left; padding:10px 10px 0px 0px;" />
