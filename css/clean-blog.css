@@ -10,6 +10,9 @@ p {
 p a {
   text-decoration: underline;
 }
+div.timeline-body span a {
+  text-decoration: underline;
+}
 h1,
 h2,
 h3,
