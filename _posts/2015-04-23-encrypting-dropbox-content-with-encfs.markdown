@@ -70,7 +70,7 @@ This time you call it, it will just ask you for your password and that's it.
 
 I like that this is done automatically each time I boot my laptop. For that reason I wrote a small script that mounts the folder automatically. For that case you have to store your password somewhere. I just wrote it to a text file. I know this could be another security problem, but if it's only located on my machine and can not be uploaded to the dropbox it is okay for me at the moment.
 
-Basically you have to make shure this command is called at boot time:
+Basically you have to make sure this command is called at boot time:
 {% highlight bash %}
 cat ~/someFolderOnMyMachine/textFileWithMyPassword.txt | encfs ~/Dropbox/.encrypted ~/DropboxSecure -S
 {% endhighlight %} 
