@@ -1,2 +1,6 @@
 _site
 node_modules
+
+# Cloud9 workspace #
+.c9
+
