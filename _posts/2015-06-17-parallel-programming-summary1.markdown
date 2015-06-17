@@ -406,3 +406,7 @@ phaser.arriveAndDeregister();
  - provides argument x of the other thread
 
 ![Exchanger](/media/062015-parallel-programming-summary1-exchanger.png)
+
+
+## Sources
+ - [HSR](http://www.hsr.ch): Module 'Parallele Programmierung' (ParProg)
