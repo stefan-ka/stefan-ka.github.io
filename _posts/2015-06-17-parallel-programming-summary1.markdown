@@ -5,7 +5,7 @@ subtitle:   "Summary 1: Java Threads / Monitor synchronization / Synchronization
 date:       2015-06-17 15:55:00
 author:     "Stefan Kapferer"
 header-img: "img/062015-parallel-programming-summary1-bg.jpg"
-tags:       [parallel programming, parallelism, concurrency, java]
+tags:       [parallel-programming, parallelism, concurrency, java]
 ---
 
 ## Introduction
