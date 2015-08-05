@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Parallel Programming"
+title:      "Parallel Programming I"
 subtitle:   "Summary 1: Java Threads / Monitor synchronization / Synchronization Primitives"
 date:       2015-06-17 15:55:00
 author:     "Stefan Kapferer"
@@ -173,7 +173,7 @@ The following example ...
 {% highlight java %}
 public class Test {
    synchronized void f() { ... } // Object Lock
-   static synchronized voidg () { ... } // Class Lock
+   static synchronized void g () { ... } // Class Lock
 }
 {% endhighlight %}
 
