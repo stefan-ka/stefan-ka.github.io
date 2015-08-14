@@ -9,13 +9,14 @@ tags:       [parallel programming, parallelism, concurrency, java]
 ---
 
 ## Introduction
-This summary is based on the course "Parallele Programmierung (ParProg)" from Luc Bläser at the [HSR](http://www.hsr.ch) in Rapperswil.
+This summary is based on the course "Parallele Programmierung (ParProg)" at the [HSR](http://www.hsr.ch) in Rapperswil.
 I visited the course in this years spring semester and now I want to make a little summary.
 
-In this first post I like to write about following topics:
+Contents:
 
- - Multi-Threading basics
- - Monitor Synchronization
+ - [Parallelism vs. Concurrency](#parallelism-vs-concurrency)
+ - [Multithreading basics](#multithreading-basics)
+ - [Monitor Synchronization](#monitor-synchronization)
  - Specific Synchronization Primitives
     - Semaphore
     - Lock & Conditions

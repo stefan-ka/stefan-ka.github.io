@@ -13,7 +13,7 @@ This post is a continuation to my [previous summary](/2015/06/17/parallel-progra
 
 This are the chapter's:
 
- - Dangers of concurrency
+ - risks of concurrency
  - Thread pools
  - Task Parallel Library
  
@@ -80,6 +80,70 @@ What means *thread safety*?
       - other concurrency problems possible
  - There is no clear definition of this term
 
+### Java collections and thread safety
+Old java collections (Java 1.0) like *Vector, Stack, Hashtable* are threadsafe.
+Modern collections (java.util > 1.0) like *HashSet, TreeSet, ArrayList, LinkedList, HashMap or TreeMap* are not threadsafe.
+If you need concurrent collections, use classes in *java.util.concurrent*. (*ConcurrentHashMap, ConcurrentLinkedQueue, CopyOnWriteArrayList, ...*)
+
+Why are the modern collections in java.util not threadsafe anymore?
+
+ - often synchronization isn't needed => confinement
+ - synchronization is mostly insufficient => elements not synchronized
+ - old java 1.0 collections are historically threadsafe (backward compatibility)
+ 
+#### Synchronized wrappers
+It's also possible to use wrappers which synchronizes all methods. The elements are still not synchronized! (available for *List, Set, Collection, SortedList, SortedSet*)
+{% highlight java %}
+List list = Collections.synchronizedList(new ArrayList());
+{% endhighlight %}
+
+#### Iterating with concurrency
+Iteration of a synchronized collection is not synchronized completely. Only single accesses are synchronized.
+It's still possible that another thread changes the collection parallel to your iteration. (semantically higher race conditions)
+
+### Nested Locks
+Nested locks can lead to **deadlocks**. Example:
+
+**Thread 1:**
+{% highlight java %}
+synchronized(listA) {
+  synchronized(listB) {
+    listB.addAll(listA);
+  }
+}
+{% endhighlight %}
+**Thread 2:**
+{% highlight java %}
+synchronized(listB) {
+  synchronized(listA) {
+    listA.addAll(listB);
+  }
+}
+{% endhighlight %}
+**What's the problem here?**
+In the worst case, thread 2 will lock *listB* directly after thread 1 locked *listA*.
+That scenario will block both threads because thread 1 is waiting for *listB* and thread 1 for *listA*. 
+
+Programs with potential **Deadlocks** are incorrect:
+ 
+ - threads can block each other
+ - errors can happen sporadically 
+ - difficult to find through tests
+ 
+#### Special case: Livelocks
+If threads block each other permanently but still use CPU, this is called livelock.
+Example: 
+
+**Thread 1:**
+{% highlight java %}
+b = false;
+while (!a) { sleep(1); }
+{% endhighlight %}
+**Thread 2:**
+{% highlight java %}
+a = false;
+while (!b) { sleep(1); }
+{% endhighlight %}
 
 
 ## Sources
