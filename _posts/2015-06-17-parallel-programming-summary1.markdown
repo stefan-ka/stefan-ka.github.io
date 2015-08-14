@@ -100,7 +100,7 @@ myThread.start();
 
 ### Anonymous inner class
 {% highlight java %}
-void startMyThread(final String label, final intnofIt) {
+void startMyThread(final String label, final int nofIt) {
    newThread() {
       @Override public void run() {
          for (int i = 0; i < nofIt; i++) {
@@ -139,7 +139,7 @@ No parallel execution should be possible for this sections. (mutual exclusion)
 With the *synchronized* modifier, the body of a method is marked as *critical section*:
 {% highlight java %}
 class BankAccount {
-   private intbalance = 0;
+   private int balance = 0;
 
    public synchronized void deposit(int amount) {
       this.balance += amount;
@@ -161,7 +161,7 @@ Additionally you can define the Lock-Object explicitly.
 In this example we make a monitor lock on *this*:
 {% highlight java %}
 class BankAccount {
-   private intbalance = 0;
+   private int balance = 0;
 
    public void deposit(int amount) {
       synchronized(this) {
