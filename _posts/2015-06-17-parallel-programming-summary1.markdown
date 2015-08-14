@@ -1,29 +1,33 @@
 ---
 layout:     post
 title:      "Parallel Programming"
-subtitle:   "Summary 1: Java Threads / Monitor synchronization / Synchronization Primitives"
-date:       2015-06-17 15:55:00
+subtitle:   "Summary"
+date:       2015-08-14 17:50:00
 author:     "Stefan Kapferer"
 header-img: "img/062015-parallel-programming-summary1-bg.jpg"
 tags:       [parallel programming, parallelism, concurrency, java]
 ---
 
 ## Introduction
-This summary is based on the course "Parallele Programmierung (ParProg)" from Luc Bläser at the [HSR](http://www.hsr.ch) in Rapperswil.
+This summary is based on the course "Parallele Programmierung (ParProg)" at the [HSR](http://www.hsr.ch) in Rapperswil.
 I visited the course in this years spring semester and now I want to make a little summary.
 
-In this first post I like to write about following topics:
+Contents:
 
- - Multi-Threading basics
- - Monitor Synchronization
- - Specific Synchronization Primitives
-    - Semaphore
-    - Lock & Conditions
-    - Count Down Latch
-    - Cyclic Barrier
-    - Phaser
-    - Rendez-Vous
-    - Exchanger
+ - [Parallelism vs. Concurrency](#parallelism-vs-concurrency)
+ - [Multithreading basics](#multithreading-basics)
+ - [Monitor Synchronization](#monitor-synchronization)
+ - [Specific Synchronization Primitives](#specific-synchronization-primitives)
+    - [Semaphore](#semaphore)
+    - [Lock & Conditions](#lock-and-conditions)
+    - [Count Down Latch](#count-down-latch)
+    - [Cyclic Barrier](#cyclic-barrier)
+    - [Phaser](#phaser)
+    - [Rendez-Vous](#rendez-vous)
+    - [Exchanger](#exchanger)
+ - [Risks of concurrency](#risks-of-concurrency)   
+ - [Starvation](#starvation)
+ - [Sources](#sources)
  
 We work with Java, but the principles can be transfered to other languages.
 
@@ -96,7 +100,7 @@ myThread.start();
 
 ### Anonymous inner class
 {% highlight java %}
-void startMyThread(final String label, final intnofIt) {
+void startMyThread(final String label, final int nofIt) {
    newThread() {
       @Override public void run() {
          for (int i = 0; i < nofIt; i++) {
@@ -135,7 +139,7 @@ No parallel execution should be possible for this sections. (mutual exclusion)
 With the *synchronized* modifier, the body of a method is marked as *critical section*:
 {% highlight java %}
 class BankAccount {
-   private intbalance = 0;
+   private int balance = 0;
 
    public synchronized void deposit(int amount) {
       this.balance += amount;
@@ -157,7 +161,7 @@ Additionally you can define the Lock-Object explicitly.
 In this example we make a monitor lock on *this*:
 {% highlight java %}
 class BankAccount {
-   private intbalance = 0;
+   private int balance = 0;
 
    public void deposit(int amount) {
       synchronized(this) {
@@ -173,7 +177,7 @@ The following example ...
 {% highlight java %}
 public class Test {
    synchronized void f() { ... } // Object Lock
-   static synchronized voidg () { ... } // Class Lock
+   static synchronized void g () { ... } // Class Lock
 }
 {% endhighlight %}
 
@@ -264,7 +268,7 @@ acquire(int permits)
 release(int permits)
 {% endhighlight %}
 
-### Lock & Conditions
+### Lock & Conditions {#lock-and-conditions}
 The *Lock & Conditions* primitive is basically a monitor with multiple waiting lists for different conditions.
 
  - Lock-Object: Lock for entering monitor
@@ -407,6 +411,152 @@ phaser.arriveAndDeregister();
 
 ![Exchanger](/media/062015-parallel-programming-summary1-exchanger.png)
 
+## Risks of concurrency
+What are possible problems if we have concurrency?
+
+ - Race conditions
+      - Not enough synchronization
+ - Deadlocks
+      - mutual exclusion of threads
+ - Starvation
+      - fairness problems
+
+### Race conditions
+Race conditions leads to unexpected behaviors because multiple threads access shared resources without enough synchronization.
+There are two different levels of race conditions:
+
+ - data races (low-level)
+ - semantically higher race conditions (high-level)
+ 
+A program with race conditions is incorrect. There can be errors from time to time, but they are usually very hard to find.
+
+#### Data races
+Data races happen if threads access shared variables or objects and there is at least one writing access. (Read-Write, Write-Read, Write-Write)
+
+#### Semantically higher race conditions
+ - Critical sections not protected
+      - Low-Level data races eliminated with synchronization
+      - But not big enough synchronized blocks
+
+### Should we synchronize everything?
+It does not help if we just synchronize all methods. 
+There can be semantically higher race conditions anyway and the synchronization is very expensive. (costs)
+
+**When isn't synchronization needed?**
+
+ - Immutability
+      - Objects with read access only and final variables
+ - Confinement
+      - Object belongs only to one thread 
+
+#### Immutable objects
+ - all variables are *final*
+ - methods with read access only
+ - after constructor object can be used without synchronization (at least in java)
+ 
+#### Confinement
+Structure guarantees that object is only accessed by one thread at same time.
+ 
+ - Thread confinement
+      - Object is referenced from one thread
+ - Object confinement
+      - Object is encapsulated in an already synchronized object
+
+### Thread safety
+What means *thread safety*?
+
+ - classes / methods which are synchronized internally
+      - no data races
+      - critical sections only inside methods
+ - But:
+      - Semantically higher race conditions still possible
+      - other concurrency problems possible
+ - There is no clear definition of this term
+
+### Java collections and thread safety
+Old java collections (Java 1.0) like *Vector, Stack, Hashtable* are threadsafe.
+Modern collections (java.util > 1.0) like *HashSet, TreeSet, ArrayList, LinkedList, HashMap or TreeMap* are not threadsafe.
+If you need concurrent collections, use classes in *java.util.concurrent*. (*ConcurrentHashMap, ConcurrentLinkedQueue, CopyOnWriteArrayList, ...*)
+
+Why are the modern collections in java.util not threadsafe anymore?
+
+ - often synchronization isn't needed => confinement
+ - synchronization is mostly insufficient => elements not synchronized
+ - old java 1.0 collections are historically threadsafe (backward compatibility)
+ 
+#### Synchronized wrappers
+It's also possible to use wrappers which synchronizes all methods. The elements are still not synchronized! (available for *List, Set, Collection, SortedList, SortedSet*)
+{% highlight java %}
+List list = Collections.synchronizedList(new ArrayList());
+{% endhighlight %}
+
+#### Iterating with concurrency
+Iteration of a synchronized collection is not synchronized completely. Only single accesses are synchronized.
+It's still possible that another thread changes the collection parallel to your iteration. (semantically higher race conditions)
+
+### Nested Locks
+Nested locks can lead to **deadlocks**. Example:
+
+**Thread 1:**
+{% highlight java %}
+synchronized(listA) {
+  synchronized(listB) {
+    listB.addAll(listA);
+  }
+}
+{% endhighlight %}
+**Thread 2:**
+{% highlight java %}
+synchronized(listB) {
+  synchronized(listA) {
+    listA.addAll(listB);
+  }
+}
+{% endhighlight %}
+**What's the problem here?**
+In the worst case, thread 2 will lock *listB* directly after thread 1 locked *listA*.
+That scenario will block both threads because thread 1 is waiting for *listB* and thread 1 for *listA*. 
+
+Programs with potential **Deadlocks** are incorrect:
+ 
+ - threads can block each other
+ - errors can happen sporadically 
+ - difficult to find through tests
+ 
+#### Special case: Livelocks
+If threads block each other permanently but still use CPU, this is called livelock.
+Example: 
+
+**Thread 1:**
+{% highlight java %}
+b = false;
+while (!a) { sleep(1); }
+{% endhighlight %}
+**Thread 2:**
+{% highlight java %}
+a = false;
+while (!b) { sleep(1); }
+{% endhighlight %}
+
+###Starvation
+Starvation means that a thread never gets a chance to access a resource.
+
+ - while the resource again and again gets free (it's always another thread which gets it)
+ - other threads overtake him
+ 
+Starvation is a liveness / fairness problem:
+
+ - threads have to wait for undefined time
+ - exceptions can happen sporadically, or not
+ - very hard to find through tests
+ 
+How to avoid starvation?
+
+ - use fair synchronization constructs
+    - give threads which had to wait longer more priority
+    - enable fairness in Java Semaphore's, Lock & Condition and Read-Write-Lock's
+ - Remember: Java Monitor has fairness problems and is very susceptible to starvation
+    - Starvation is also possible if you set thread priority 
 
 ## Sources
  - [HSR](http://www.hsr.ch): Module 'Parallele Programmierung' (ParProg)
