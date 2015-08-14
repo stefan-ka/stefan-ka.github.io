@@ -4,3 +4,6 @@ node_modules
 # Cloud9 workspace #
 .c9
 
+# Eclipse project
+.project
+
