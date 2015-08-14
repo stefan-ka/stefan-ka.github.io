@@ -5,7 +5,7 @@ subtitle:   "Summary"
 date:       2015-08-14 17:50:00
 author:     "Stefan Kapferer"
 header-img: "img/062015-parallel-programming-summary1-bg.jpg"
-tags:       [parallel programming, parallelism, concurrency, java]
+tags:       [parallel-programming, concurrency, java]
 ---
 
 ## Introduction

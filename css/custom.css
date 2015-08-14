@@ -606,3 +606,12 @@ body {
 #disqus_thread {
 	padding-top: 20px;
 }
+
+.site-tag {
+	padding: 0px 20px 0px 0px;
+}
+
+.site-tag a {
+	white-space: nowrap;
+	display: inline-block;
+}
