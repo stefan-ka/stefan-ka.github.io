@@ -45,7 +45,7 @@ To start the application you have to use the method SpringApplication.run().
 
 Here you see my example:
 
-{% highlight java linenos %}
+{% highlight java %}
 package ch.hsr.faith.application.rest;
 
 import org.springframework.boot.SpringApplication;
