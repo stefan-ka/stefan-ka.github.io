@@ -14,6 +14,9 @@ The document can be found here: [https://eprints.hsr.ch/564/](https://eprints.hs
 
 Since it is written in German, I provide an abstract about my work in English here. 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My semester thesis has been published: <a href="https://t.co/eatHXyNluO">https://t.co/eatHXyNluO</a> Many thanks to the industry partner <a href="https://twitter.com/Adcubum">@Adcubum</a>, especially <a href="https://twitter.com/alexgfeller">@alexgfeller</a>.</p>&mdash; Stefan Kapferer (@stefankapferer) <a href="https://twitter.com/stefankapferer/status/847203298532872192">March 29, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Abstract
 In adcubum SYRIUS, which is a layered ERP-Solution for insurance, the access permissions are stored inside the database. The authorization of the data is performed with every data access inside the persistence layer. This solution is sufficient, as long as all data which need to be authorized are stored inside the local database.
 
