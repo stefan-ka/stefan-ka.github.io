@@ -1,11 +1,8 @@
 ---
 layout:     post
 title:      "Parallel Programming"
-subtitle:   "Summary"
-date:       2015-08-14 17:50:00
-author:     "Stefan Kapferer"
-header-img: "img/062015-parallel-programming-summary1-bg.jpg"
-tags:       [parallel-programming, concurrency, java]
+date:       2015-08-14
+summary:    Parallel Programming Summary
 ---
 
 ## Introduction
@@ -538,7 +535,7 @@ a = false;
 while (!b) { sleep(1); }
 {% endhighlight %}
 
-###Starvation
+### Starvation
 Starvation means that a thread never gets a chance to access a resource.
 
  - while the resource again and again gets free (it's always another thread which gets it)

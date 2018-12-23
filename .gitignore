@@ -1,13 +1,9 @@
 _site
-node_modules
+.sass-cache
+.DS_Store
+.jekyll-metadata
 
-# Cloud9 workspace #
-.c9
+# Ignore the config file that's used for gh-pages.
+_config.gh-pages.yml
 
-# Eclipse project
-.project
-
-# Webstorm
-.idea
-
-
+Gemfile.lock

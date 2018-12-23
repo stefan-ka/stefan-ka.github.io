@@ -1,11 +1,8 @@
 ---
 layout:     post
-title:      "Secure cloud storage"
-subtitle:   "Encrypting Dropbox content with EncFS"
-date:       2015-04-25 17:45:00
-author:     "Stefan Kapferer"
-header-img: "img/042015-encrypt-dropbox-content.jpg"
-tags:       [encryption, cloud]
+title:      "Secure cloud storage approach"
+date:       2015-04-25
+summary:    Encrypting Dropbox content with EncFS
 ---
 
 ## Encrypting Dropbox content with EncFS

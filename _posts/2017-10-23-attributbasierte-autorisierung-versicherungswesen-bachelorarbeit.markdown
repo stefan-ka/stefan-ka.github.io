@@ -1,11 +1,8 @@
 ---
 layout:     post
 title:      "Attributbasierte Autorisierung in einer Branchenlösung für das Versicherungswesen"
-subtitle:   "Bachelor Thesis @ HSR"
-date:       2017-10-23 17:00:00
-author:     "Stefan Kapferer"
-header-img: "img/102017-attributbasierte-autorisierung-versicherungswesen.jpg"
-tags:       [abac, data-access-security]
+date:       2017-10-23
+summary:    Bachelor thesis&colon; A concept and "proof of concept" for implementing Attribute-based Access Control (ABAC) in a standard software for the insurance sector (Written in German).
 ---
 
 ## Einleitung

@@ -1,11 +1,8 @@
 ---
 layout:     post
 title:      "Autopilot for carrera slot car"
-subtitle:   "challenge-project@HSR"
-date:       2016-01-12 18:00:00
-author:     "Stefan Kapferer"
-header-img: "img/012016-autopilot-bg.jpg"
-tags:       [java, akka, reactive-programming, real-time-event-processing, machine-learning, data-analytics, internet-of-things]
+date:       2016-01-12
+summary:    A challenge project at HSR&colon; akka-based autopilot for a carrera slot car.
 ---
 
 ## Introduction

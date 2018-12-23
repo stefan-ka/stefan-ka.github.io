@@ -1,11 +1,8 @@
 ---
 layout:     post
 title:      "Hello Docker Cloud World"
-subtitle:   "'Hello World' with Docker & Docker Cloud"
-date:       2016-03-11 07:45:00
-author:     "Stefan Kapferer"
-header-img: "img/032016-dockercloudhelloworld-bg.jpg"
-tags:       [docker, docker-cloud]
+date:       2016-03-11
+summary:    Hello World with Docker & Docker Cloud.
 ---
 
 ## Introduction

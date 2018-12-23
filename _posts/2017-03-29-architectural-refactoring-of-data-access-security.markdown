@@ -1,11 +1,8 @@
 ---
 layout:     post
 title:      "Architectural Refactoring of Data Access Security"
-subtitle:   "Semester Thesis @ HSR"
-date:       2017-03-29 23:20:00
-author:     "Stefan Kapferer"
-header-img: "img/032017-architectural-refactoring-of-data-access-security.jpg"
-tags:       [abac, data-access-security, architectural-refactoring, strategic-domain-driven-design]
+date:       2017-03-29
+summary:    A concept for implementing authorization as a separate microservice / bounded context (DDD) in a standard software for insurance companies.
 ---
 
 ## Introduction
