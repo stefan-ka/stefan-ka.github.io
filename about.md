@@ -6,10 +6,22 @@ tags: about
 ---
 
 <p><img src="/media/ska.jpg" alt="Stefan Kapferer" style="float: left; margin: 0px 30px 10px 0px;" />
-I'm a software engineer and currently MSc student in the Software and Systems master research unit at the <a href="https://www.hsr.ch/" target="_blank">University of Applied Sciences Rapperswil</a>. I'm focusing on software engineering and am especially interested in software architecture and design. With my current research projects I work on topics such as Domain-driven Design, Service Decomposition and Architectural Refactorings.
+I'm a software engineer and currently MSc student in the Software and Systems master research unit at the 
+<a href="https://www.hsr.ch/" target="_blank">University of Applied Sciences Rapperswil</a>. 
+I'm focusing on software engineering and am especially interested in software architecture and design. 
+With my current research projects I work on topics such as Domain-driven Design (DDD), Service Decomposition and 
+Architectural Refactorings.
 </p>
 
-## Work Experience
+## Interests
+ * Software Engineering
+ * Software Architecture and Design
+ * Service-oriented Architectures / Microservices
+ * Domain-driven Design (DDD)
+ * Object-oriented Analysis and Design (OOAD)
+ * Java / Concepts of Object-oriented Programming 
+
+## Professional Experience
 <div class="timeline">
   <div class="container timeline-left">
     <div class="content">
