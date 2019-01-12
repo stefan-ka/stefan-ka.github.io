@@ -10,7 +10,8 @@ tags: papers, publications, projects
 
  * **Model Transformations for DSL Processing**,
    Seminar Paper 2018,
-   [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/model-transformations-for-dsl-processing/HS18_SKapferer_Model-Transformations-for-DSL-Processing-Paper.pdf)
+   [Paper](https://github.com/stefan-ka/papers-and-publications/raw/master/model-transformations-for-dsl-processing/HS18_SKapferer_Model-Transformations-for-DSL-Processing-Paper.pdf), 
+   [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/model-transformations-for-dsl-processing/HS18_SKapferer_Model-Transformations-for-DSL-Processing-Presentation.pdf)
  
  * **"Attributbasierte Autorisierung in einer Branchenlösung für das Versicherungswesen"**, 
    Bachelor Thesis 2017, 
