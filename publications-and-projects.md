@@ -5,7 +5,10 @@ permalink: /publications/
 tags: papers, publications, projects
 ---
 
- * **A Domain-specific Language for Service Decomposition**, Term Project 2018, _Project report PDF coming soon_, 
+ * **A Domain-specific Language for Service Decomposition**, Term Project 2018, 
+   [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition-Abstract.pdf),
+   [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition.pdf), 
+   [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/722/), 
    * Open Source Project: **Context Mapper**, [https://contextmapper.github.io/](https://contextmapper.github.io/)
 
  * **Model Transformations for DSL Processing**,
