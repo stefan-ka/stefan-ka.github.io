@@ -13,8 +13,7 @@ Domain-specific Language (DSL), provides a foundation for structured service dec
 Service-oriented a.k.a. Microservice architectures is challenging. The DSL allows to create DDD context maps and use them as input for 
 the [Service Cutter](https://servicecutter.github.io/) tool. Other decomposition approaches using the DSL will follow with the next project.
 You can further convert the context maps into [PlantUML](http://plantuml.com/) component and class diagrams. 
-The full project report will be published by [HSR](http://hsr.ch/) soon (January 2019). However, if you are interested you can already check out 
-the open source project [Context Mapper](https://contextmapper.github.io/) which is the result of the introduced term project.
+The full project report is published by [HSR](http://hsr.ch/) and can be found [here](https://eprints.hsr.ch/722/).
 
 ## Strategic Domain-driven Design (DDD)
 DDD provides an approach to decompose a domain into multiple bounded contexts. Thereby its patterns and especially the bounded contexts 
