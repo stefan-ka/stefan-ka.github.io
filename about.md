@@ -13,6 +13,11 @@ With my current research projects I work on topics such as Domain-driven Design 
 Architectural Refactorings.
 </p>
 
+## Contact
+ * [stefan@kapferer.ch](mailto:stefan@kapferer.ch)
+ * [LinkedIn](https://www.linkedin.com/in/stefankapferer)
+ * [@stefankapferer](https://twitter.com/stefankapferer)
+
 ## Interests
  * Software Engineering
  * Software Architecture and Design
