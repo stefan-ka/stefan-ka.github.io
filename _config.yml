@@ -5,9 +5,11 @@ description: "Stefan Kapferer - Software Engineer"
 baseurl:     ""
 url:         "http://stefan.kapferer.ch"
 date_format: "%b %-d, %Y"
+include: ['_pages']
 header_pages:
- - about.md
- - publications-and-projects.md
+ - _pages/about.md
+ - _pages/publications-and-projects.md
+relative_permalinks: false
 
 # Google services
 google_verification:
@@ -124,6 +126,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
