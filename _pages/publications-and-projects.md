@@ -5,6 +5,11 @@ permalink: /publications/
 tags: papers, publications, projects
 ---
 
+ * **Empirical Research in Software Engineering**,
+   Seminar Paper 2019,
+   [Paper](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Paper.pdf), 
+   [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Presentation.pdf)
+
  * **A Domain-specific Language for Service Decomposition**, Term Project 2018, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition-Abstract.pdf),
    [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition.pdf), 
