@@ -5,6 +5,10 @@ permalink: /publications/
 tags: papers, publications, projects
 ---
 
+ * **Service Decomposition as a Series of Architectural Refactorings**,
+   Term Project 2019 (publication coming soon)
+   * Open Source Project: **Context Mapper**, [https://contextmapper.github.io/](https://contextmapper.github.io/)
+
  * **Empirical Research in Software Engineering**,
    Seminar Paper 2019,
    [Paper](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Paper.pdf), 
