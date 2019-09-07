@@ -13,6 +13,8 @@ With my current research projects I work on topics such as Domain-driven Design 
 Architectural Refactorings.
 </p>
 
+<a href="/media/CV_Stefan-Kapferer.pdf">Download CV</a>
+
 ## Contact
  * [stefan@kapferer.ch](mailto:stefan@kapferer.ch)
  * [LinkedIn](https://www.linkedin.com/in/stefankapferer)
