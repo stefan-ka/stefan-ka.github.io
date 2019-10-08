@@ -5,7 +5,7 @@ permalink: /publications/
 tags: papers, publications, projects
 ---
 
- * **Service Decomposition as a Series of Architectural Refactorings**, Term Project 2018, 
+ * **Service Decomposition as a Series of Architectural Refactorings**, Term Project 2019, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/service-decomposition-as-a-series-of-architectural-refactorings/FS19-MSE-Stefan-Kapferer-Service-Decomposition-Architectural-Refactorings-Abstract.pdf),
    [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/service-decomposition-as-a-series-of-architectural-refactorings/FS19-MSE-Stefan-Kapferer-Service-Decomposition-Architectural-Refactorings.pdf), 
    [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/784/), 
