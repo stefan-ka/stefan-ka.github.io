@@ -5,11 +5,16 @@ permalink: /publications/
 tags: papers, publications, projects
 ---
 
+ * **Context Mapper: DSL and Tools for Domain-Driven Service Design**, Talk at [JUG CH](https://www.jug.ch/) together with Prof. Dr. Olaf Zimmermann, September 2019, 
+   [JUG page with abstract](https://www.jug.ch/html/events/2019/context_mapper.html),
+   [Slides](https://www.jug.ch/events/slides/190910_ContextMapperDDD_Slides.pdf)
+   * Open Source Project: **Context Mapper**, [https://contextmapper.org/](https://contextmapper.org/)
+   
  * **Service Decomposition as a Series of Architectural Refactorings**, Term Project 2019, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/service-decomposition-as-a-series-of-architectural-refactorings/FS19-MSE-Stefan-Kapferer-Service-Decomposition-Architectural-Refactorings-Abstract.pdf),
    [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/service-decomposition-as-a-series-of-architectural-refactorings/FS19-MSE-Stefan-Kapferer-Service-Decomposition-Architectural-Refactorings.pdf), 
-   [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/784/), 
-   * Open Source Project: **Context Mapper**, [https://contextmapper.github.io/](https://contextmapper.github.io/)
+   [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/784/)
+   * Open Source Project: **Context Mapper**, [https://contextmapper.org/](https://contextmapper.org/)
 
  * **Empirical Research in Software Engineering**,
    Seminar Paper 2019,
@@ -18,9 +23,9 @@ tags: papers, publications, projects
 
  * **A Domain-specific Language for Service Decomposition**, Term Project 2018, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition-Abstract.pdf),
-   [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition.pdf), 
+   [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition.pdf)
    [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/722/), 
-   * Open Source Project: **Context Mapper**, [https://contextmapper.github.io/](https://contextmapper.github.io/)
+   * Open Source Project: **Context Mapper**, [https://contextmapper.org/](https://contextmapper.org/)
 
  * **Model Transformations for DSL Processing**,
    Seminar Paper 2018,
