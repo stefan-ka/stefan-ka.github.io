@@ -19,7 +19,8 @@ tags: papers, publications, projects
  * **Empirical Research in Software Engineering**,
    Seminar Paper 2019,
    [Paper](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Paper.pdf), 
-   [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Presentation.pdf)
+   [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Presentation.pdf),
+   [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/820/)
 
  * **A Domain-specific Language for Service Decomposition**, Term Project 2018, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition-Abstract.pdf),
@@ -30,7 +31,8 @@ tags: papers, publications, projects
  * **Model Transformations for DSL Processing**,
    Seminar Paper 2018,
    [Paper](https://stefan.kapferer.ch/model-transformations-for-dsl-processing), 
-   [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/model-transformations-for-dsl-processing/HS18_SKapferer_Model-Transformations-for-DSL-Processing-Presentation.pdf)
+   [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/model-transformations-for-dsl-processing/HS18_SKapferer_Model-Transformations-for-DSL-Processing-Presentation.pdf),
+   [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/819/)
  
  * **"Attributbasierte Autorisierung in einer Branchenlösung für das Versicherungswesen"**, 
    Bachelor Thesis 2017, 
