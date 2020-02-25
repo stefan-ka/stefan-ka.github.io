@@ -7,6 +7,12 @@ tags: papers, publications, projects
 
 All my publications at [University of Applied Sciences Rapperswil (HSR)](https://www.hsr.ch/) can also be found [here](https://eprints.hsr.ch/view/creators/Kapferer=3AStefan=3A=3A.html).
 
+ * **A Modeling Framework for Strategic Domain-driven Design and Service Decomposition**, Master Thesis 2020, 
+   [Abstract](https://contextmapper.org/media/HS19-MSE-Master-Thesis-Abstract-Stefan-Kapferer-SDDD-Modeling-Framework.pdf),
+   [PDF](http://eprints.hsr.ch/821/1/HS19-MSE-Master-Thesis-Report-PUBLIC-Stefan-Kapferer-SDDD-Modeling-Framework.pdf), 
+   [Publication University of Applied Sciences Rapperswil HSR](http://eprints.hsr.ch/821/)
+   * Open Source Project: **Context Mapper**, [https://contextmapper.org/](https://contextmapper.org/)
+
  * **Context Mapper: DSL and Tools for Domain-Driven Service Design**, Talk at [JUG CH](https://www.jug.ch/) together with Prof. Dr. Olaf Zimmermann, September 2019, 
    [JUG page with abstract](https://www.jug.ch/html/events/2019/context_mapper.html),
    [Slides](https://www.jug.ch/events/slides/190910_ContextMapperDDD_Slides.pdf)
