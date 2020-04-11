@@ -6,11 +6,11 @@ tags: about
 ---
 
 <p><img src="/media/ska.jpg" alt="Stefan Kapferer" style="float: left; margin: 0px 30px 10px 0px;" />
-I'm a software engineer and currently MSc student in the Software and Systems master research unit at the 
-<a href="https://www.hsr.ch/" target="_blank">University of Applied Sciences Rapperswil</a>. 
-I'm focusing on software engineering and am especially interested in software architecture and design. 
-With my current research projects I work on topics such as Domain-driven Design (DDD), Service Decomposition and 
-Architectural Refactorings.
+I'm a software engineer and project lead at the <a href="https://ifs.hsr.ch/" target="_blank">Institute for 
+Software (IFS)</a> at the <a href="https://www.hsr.ch/" target="_blank">University of Applied Sciences 
+HSR</a> in Rapperswil. I'm focusing on software engineering and am especially interested in software architecture 
+and design. Currently I work on the <a target="_blank" href="https://contextmapper.org/">Context Mapper</a> open source
+project and topics such as Domain-driven Design (DDD), Service Decomposition and Architectural Refactorings.
 </p>
 
 <a href="/media/CV_Stefan-Kapferer.pdf">Download CV</a>
