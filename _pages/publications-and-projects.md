@@ -5,13 +5,21 @@ permalink: /publications/
 tags: papers, publications, projects
 ---
 
-All my publications at [University of Applied Sciences Rapperswil (HSR)](https://www.hsr.ch/) can also be found [here](https://eprints.hsr.ch/view/creators/Kapferer=3AStefan=3A=3A.html).
+### 2020
+
+ * **Domain-specific Language and Tools for Strategic Domain-driven Design, Context Mapping and Bounded Context Modeling**, Stefan Kapferer 
+   and Olaf Zimmermann, In _Proceedings of the 8th International Conference on Model-Driven Engineering and Software Development - MODELSWARD_, 
+   pages 299–306. INSTICC, SciTePress
+   * [Paper (SciTePress)](https://doi.org/10.5220/0008910502990306)
+   * [Presentation](https://contextmapper.org/media/ZIOSK-Modelsward-Paper-Presentation-v101p.pdf)
 
  * **A Modeling Framework for Strategic Domain-driven Design and Service Decomposition**, Master Thesis 2020, 
    [Abstract](https://contextmapper.org/media/HS19-MSE-Master-Thesis-Abstract-Stefan-Kapferer-SDDD-Modeling-Framework.pdf),
    [PDF](http://eprints.hsr.ch/821/1/HS19-MSE-Master-Thesis-Report-PUBLIC-Stefan-Kapferer-SDDD-Modeling-Framework.pdf), 
    [Publication University of Applied Sciences Rapperswil HSR](http://eprints.hsr.ch/821/)
    * Open Source Project: **Context Mapper**, [https://contextmapper.org/](https://contextmapper.org/)
+
+### 2019
 
  * **Context Mapper: DSL and Tools for Domain-Driven Service Design**, Talk at [JUG CH](https://www.jug.ch/) together with Prof. Dr. Olaf Zimmermann, September 2019, 
    [JUG page with abstract](https://www.jug.ch/html/events/2019/context_mapper.html),
@@ -30,6 +38,8 @@ All my publications at [University of Applied Sciences Rapperswil (HSR)](https:/
    [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/empirical-research-in-software-engineering/FS19_SKapferer_Empirical-Research-in-Software-Engineering-Presentation.pdf),
    [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/820/)
 
+### 2018
+
  * **A Domain-specific Language for Service Decomposition**, Term Project 2018, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition-Abstract.pdf),
    [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/a-dsl-for-service-decomposition/HS18-MSE-Stefan-Kapferer-A-DSL-for-Service-Decomposition.pdf)
@@ -41,12 +51,16 @@ All my publications at [University of Applied Sciences Rapperswil (HSR)](https:/
    [Paper](https://stefan.kapferer.ch/model-transformations-for-dsl-processing), 
    [Presentation](https://github.com/stefan-ka/papers-and-publications/raw/master/model-transformations-for-dsl-processing/HS18_SKapferer_Model-Transformations-for-DSL-Processing-Presentation.pdf),
    [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/819/)
+
+### 2017
  
  * **"Attributbasierte Autorisierung in einer Branchenlösung für das Versicherungswesen"**, 
    Bachelor Thesis 2017, 
    [Abstract](https://github.com/stefan-ka/papers-and-publications/raw/master/attribute-based-access-control-in-a-standard-software-for-the-insurance-sector/17_BA_Jost-Kapferer_Abstract.pdf),
    [PDF](https://github.com/stefan-ka/papers-and-publications/raw/master/attribute-based-access-control-in-a-standard-software-for-the-insurance-sector/FS2017-BA-EP-Jost-Kapferer-Attributbasierte-Autorisierung-in-einer-Branchenloesung-fuer-das-Versicherungswesen.pdf), 
    [Publication University of Applied Sciences Rapperswil HSR](https://eprints.hsr.ch/602/) (German)
+ 
+### 2016
  
  * **"Architectural Refactoring der Data Access Security"**, 
    Semester Thesis 2016, 
