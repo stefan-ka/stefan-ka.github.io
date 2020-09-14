@@ -2,7 +2,7 @@
 layout:     post
 title:      "SummerSoC 2020: Domain-driven Service Design"
 date:       2020-09-14
-summary:    "SummerSoC 2020 paper presentation: Context Modeling, Model Refactoring and Contract Generation - this blogpost documents my examples and continues the demonstration towards contract generation."
+summary:    "SummerSoC 2020 paper presentation: Context Modeling, Model Refactoring and Contract Generation - this blogpost documents my examples and continues the demonstration at SummerSoC 2020 towards contract generation."
 redirect_from:
   - /summersoc2020
   - /SummerSoC2020
