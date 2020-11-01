@@ -2,10 +2,20 @@
 layout: page
 title: Papers & Publications
 permalink: /publications/
-tags: papers, publications, projects
+tags: papers, publications
 ---
 
 ### 2020
+
+ * **Domain-driven Service Design - Context Modeling, Model Refactoring and Contract Generation**, Stefan Kapferer 
+   and Olaf Zimmermann, In _Papers From the 14th Advanced Summer School on Service-Oriented Computing (SummerSOC'20)_, 
+   * _to be published soon_
+   * [Presentation](/media/Stefan-Kapferer-presentation-summersoc-2020.pdf)
+
+ * **Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper**, Stefan Kapferer 
+   and Olaf Zimmermann, In _Model-Driven Engineering and Software Development_, 
+   Springer International Publishing, Cham
+   * _to be published soon_
 
  * **Domain-specific Language and Tools for Strategic Domain-driven Design, Context Mapping and Bounded Context Modeling**, Stefan Kapferer 
    and Olaf Zimmermann, In _Proceedings of the 8th International Conference on Model-Driven Engineering and Software Development - MODELSWARD_, 

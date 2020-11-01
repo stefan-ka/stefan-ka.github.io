@@ -7,17 +7,18 @@ tags: about
 
 <p><img src="/media/ska.jpg" alt="Stefan Kapferer" style="float: left; margin: 0px 30px 10px 0px;" />
 I'm a software engineer and project lead at the <a href="https://ifs.hsr.ch/" target="_blank">Institute for 
-Software (IFS)</a> at the <a href="https://www.hsr.ch/" target="_blank">University of Applied Sciences 
-HSR</a> in Rapperswil. I'm focusing on software engineering and am especially interested in software architecture 
+Software (IFS)</a> at the <a href="https://www.ost.ch/" target="_blank">University of Applied Sciences of Eastern Switzerland 
+(OST / HSR)</a> in Rapperswil. I'm focusing on software engineering and am especially interested in software architecture 
 and design. Currently I work on the <a target="_blank" href="https://contextmapper.org/">Context Mapper</a> open source
 project and topics such as Domain-driven Design (DDD), Service Decomposition and Architectural Refactorings.
 </p>
 
-<a href="/media/CV_Stefan-Kapferer.pdf">Download CV</a>
+<a href="https://github.com/stefan-ka/cv/raw/master/CV_Stefan-Kapferer.pdf">Download my CV</a>
 
 ## Contact
  * [stefan@kapferer.ch](mailto:stefan@kapferer.ch)
  * [LinkedIn](https://www.linkedin.com/in/stefankapferer)
+ * [GitHub](https://github.com/stefan-ka)
  * [@stefankapferer](https://twitter.com/stefankapferer)
 
 ## Interests
@@ -34,8 +35,21 @@ project and topics such as Domain-driven Design (DDD), Service Decomposition and
 **Software Engineer and Project Lead**<br>
 02/2020 - Now
 
- * Software engineer and project lead in the [Context Mapper](https://contextmapper.org/) open source project
- * Research projects around Domain-driven Design (DDD), service-oriented architectures / microservices, and service decomposition
+Leading development and research around the Context Mapper project. Supporting other research projects and teaching on software architecture, (micro-)service-oriented architectures, and Domain-driven Design (DDD).
+
+Involved projects and activities:
+
+ * Context Mapper ([contextmapper.org](https://contextmapper.org)) open source project - "A Modeling Framework for Strategic Domain-driven Design"
+   * Leading project technically
+   * Writing research papers on Context Mapper and Domain-driven Design related topics;
+   * Used Technologies: Domain-specific Language (DSL) with Xtext framework (Java, Xtend), Language server based on Language Server Protocol (LSP), Eclipse plugin (Java), Visual Studio Code extension (Typescript), Reverse engineering architectures of microservice applications based on Spring Boot and Spring Web, Docker and Docker Compose, and Open API (OAS) specifications
+ * Microservice DSL (MDSL) project ([microservice-api-patterns.github.io/MDSL-Specification/](https://microservice-api-patterns.github.io/MDSL-Specification/))
+   * Supporting Prof. Olaf Zimmermann in implementing MDSL generator tooling
+   * Generating Java code ("moduliths"), GraphQL schemas, protocol buffer specifications, and Open API specifications out of MDSL contracts
+     * Conceptual work: map abstract API contracts to concrete interface technologies, derive service contracts from DDD-based architecture models
+ * Support of teaching in application architecture on BSc level
+   * Domain-driven Design (DDD)
+   * Context Mapper
 
 ### [Ergon Informatik AG](https://www.ergon.ch)
 <strong>Internship in Software Engineering</strong><br>
@@ -153,6 +167,13 @@ Advanced Federal Diploma of Higher Education (HF) in **Computer Science**<br>
 ### Apprenticeship in Informatics (Application Development)
 **<a href="http://www.clavisit.com" target="_blank">clavis IT ag</a>**<br>
 08/2004 - 08/2008
+
+## Awards
+### SummerSoC Young Researcher Award 2020
+For mine and Olaf Zimmermann's paper entitled "Domain-driven Service Design - Context Modeling, Model Refactoring and Contract Generation" [I received the SummerSoC Young Researcher Award sponsored by ServTech](https://servtech.info/2020/09/14/summersoc-young-researcher-award-2020-goes-to-stefan-kapferer/).
+ * [News article by the University of Applied Sciences of Eastern Switzerland (OST)](https://www.ost.ch/de/news/article/stefan-kapferer-gewinnt-young-researcher-award/)
+
+  ![Stefan Kapferer wins Young Researcher Award](/media/young-researcher-award-2020.jpg)
 
 ## Certificates
 

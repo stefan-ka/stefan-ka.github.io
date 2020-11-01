@@ -9,6 +9,7 @@ include: ['_pages']
 header_pages:
  - _pages/about.md
  - _pages/publications-and-projects.md
+ - _pages/projects.md
 relative_permalinks: false
 
 # Google services
