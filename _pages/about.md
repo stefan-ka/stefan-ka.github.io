@@ -6,14 +6,16 @@ tags: about
 ---
 
 <p><img src="/media/ska.jpg" alt="Stefan Kapferer" style="float: left; margin: 0px 30px 10px 0px;" />
-I'm a software engineer and project lead at the <a href="https://ifs.hsr.ch/" target="_blank">Institute for 
-Software (IFS)</a> at the <a href="https://www.ost.ch/" target="_blank">University of Applied Sciences of Eastern Switzerland 
-(OST / HSR)</a> in Rapperswil. I'm focusing on software engineering and am especially interested in software architecture 
-and design. Currently I work on the <a target="_blank" href="https://contextmapper.org/">Context Mapper</a> open source
-project and topics such as Domain-driven Design (DDD), Service Decomposition and Architectural Refactorings.
+I'm a software architect at <a href="https://www.mimacom.com/" target="_blank">mimacom ag</a> in Zurich. 
+</p>
+<p>
+I'm interested in all kinds of software engineering related topics; especially software architecture and Domain-driven Design (DDD). 
+I am also the founder and project lead of the <a target="_blank" href="https://contextmapper.org/">Context Mapper</a> open source project.
 </p>
 
-<a href="https://github.com/stefan-ka/cv/raw/master/CV_Stefan-Kapferer.pdf">Download my CV</a>
+<p>
+  <a href="https://github.com/stefan-ka/cv/raw/master/CV_Stefan-Kapferer.pdf">Download my CV</a>
+</p>
 
 ## Contact
  * [stefan@kapferer.ch](mailto:stefan@kapferer.ch)
@@ -31,9 +33,15 @@ project and topics such as Domain-driven Design (DDD), Service Decomposition and
 
 ## Professional Experience
 
+### [mimacom ag](https://www.mimacom.com)
+**Software Architect**<br>
+01/2021 - Now
+
+(to be updated)
+
 ### [Institute for Software (IFS)](https://ifs.hsr.ch) at [HSR](https://www.hsr.ch/)
 **Software Engineer and Project Lead**<br>
-02/2020 - Now
+02/2020 - 12/2020
 
 Leading development and research around the Context Mapper project. Supporting other research projects and teaching on software architecture, (micro-)service-oriented architectures, and Domain-driven Design (DDD).
 
