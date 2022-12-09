@@ -463,7 +463,7 @@ This blogpost, the SummerSoC 2020 paper, and Context Mapper would not exist with
 ## UPDATE: SummerSoC Young Researcher Award 2020
 Many thanks to the organizers of [SummerSoC 2020](https://www.summersoc.eu/) and [ServTech](https://servtech.info/) for [selecting me to receive the «SummerSoC Young Researcher Award 2020»](https://servtech.info/2020/09/14/summersoc-young-researcher-award-2020-goes-to-stefan-kapferer/) 🙏
 
-![SummerSoC Young Researcher Award 2020 Picture (Stefan Kapferer)](/media/SummerSoC-Young-Researcher-Award-2020_Stefan-Kapferer.jpg)
+![SummerSoC Young Researcher Award 2020 Picture (Stefan Kapferer)](/media/young-researcher-award-2020.jpg)
 
 It was a pleasure to be part of this event and of course I feel honored to receive this award!
 

@@ -5,6 +5,27 @@ permalink: /publications/
 tags: papers, publications
 ---
 
+### 2022
+
+* **Domain-Driven Design (DDD) in Practice — Experience with Context Mapper**, Stefan Kapferer
+  and Olaf Zimmermann, two translated and mildly edited blogposts that cover the contents of the original article 
+  **«Domain-Driven Design in der Praxis - Erfahrungen mit dem Open-Source-Tool Context Mapper»** written in German; 
+  each part features one case and related lessons learned.
+   * [Part by Stefan Kapferer (mimacom)](https://blog.mimacom.com/ddd-and-context-mapper-experience/)
+   * [Part by Olaf Zimmermann (OST)](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html)
+
+### 2021
+
+* **«Domain-Driven Design in der Praxis - Erfahrungen mit dem Open-Source-Tool Context Mapper»** (GERMAN), Stefan Kapferer
+  and Olaf Zimmermann, In _JavaSPEKTRUM 6/2021, pages 20–23_,
+   * [JavaSPEKTRUM 6/2021 (full magazine)](https://webreader.javaspektrum.de/de/profiles/4967c6d5eae1-javaspektrum/editions/javaspektrum-06-2021)
+   * [Article PDF](https://contextmapper.org/media/SD-00-Java-06-SP-Kapferer-Zimmermann.pdf) (sponsored by [mimacom](https://www.mimacom.com/))
+
+* **Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper**, Stefan Kapferer
+  and Olaf Zimmermann, _Revised and Extended Selected Papers_ from the 8th International Conference on Model-Driven Engineering and Software Development, pp 250–272, MODELSWARD 2020, Valletta
+   * [Published paper](https://doi.org/10.1007/978-3-030-67445-8_11) (Published in Springer's _Communications in Computer and Information Science_ series)
+   * [Author's Copy (PDF)](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf)
+
 ### 2020
 
  * **Domain-driven Service Design - Context Modeling, Model Refactoring and Contract Generation**, Stefan Kapferer 
@@ -12,6 +33,9 @@ tags: papers, publications
    * [Paper (Springer _Communications in Computer and Information Science_)](https://doi.org/10.1007/978-3-030-64846-6_11)
      * [Author's Copy](/media/SummerSoC-2020_Domain-driven-Service-Design_Authors-Copy.pdf)
    * [Presentation](/media/Stefan-Kapferer-presentation-summersoc-2020.pdf)
+     <br/><br/>
+   * [Winner of the «Young Researcher Award 2020»](https://www.ost.ch/de/studium/informatik/bachelor-informatik/news-aus-dem-studiengang-informatik/detail/stefan-kapferer-gewinnt-young-researcher-award):
+     <br/><br/>![SummerSoC Young Researcher Award 2020 (Stefan Kapferer)](/media/young-researcher-award-2020.jpg)
 
  * **Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper**, Stefan Kapferer 
    and Olaf Zimmermann, In _Model-Driven Engineering and Software Development_, 
