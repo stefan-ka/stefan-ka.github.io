@@ -5,6 +5,11 @@ permalink: /publications/
 tags: papers, publications
 ---
 
+### 2024
+
+* **Continuous Integration and Delivery in Open Source Development and Pattern Publishing: Lessons Learned With Tool Setup and Pipeline Evolution**, Olaf Zimmermann, Cesare Pautasso, Stefan Kapferer, Mirko Stocker, _IEEE Software (Volume: 41, Issue: 1, Jan.-Feb. 2024)_, pp 9–18, IEEE
+   * [Published paper](https://doi.org/10.1109/MS.2023.3322312)
+
 ### 2022
 
 * **Domain-Driven Design (DDD) in Practice — Experience with Context Mapper**, Stefan Kapferer
@@ -36,11 +41,6 @@ tags: papers, publications
      <br/><br/>
    * [Winner of the «Young Researcher Award 2020»](https://www.ost.ch/de/studium/informatik/bachelor-informatik/news-aus-dem-studiengang-informatik/detail/stefan-kapferer-gewinnt-young-researcher-award):
      <br/><br/>![SummerSoC Young Researcher Award 2020 (Stefan Kapferer)](/media/young-researcher-award-2020.jpg)
-
- * **Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper**, Stefan Kapferer 
-   and Olaf Zimmermann, In _Model-Driven Engineering and Software Development_, 
-   Springer International Publishing, Cham
-   * _to be published soon_
 
  * **Domain-specific Language and Tools for Strategic Domain-driven Design, Context Mapping and Bounded Context Modeling**, Stefan Kapferer 
    and Olaf Zimmermann, In _Proceedings of the 8th International Conference on Model-Driven Engineering and Software Development - MODELSWARD_, 
