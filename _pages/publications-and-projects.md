@@ -7,6 +7,9 @@ tags: papers, publications
 
 ### 2024
 
+* **Bringing ethical values into agile software engineering**, Olaf Zimmermann, Mirko Stocker, Stefan Kapferer, _Proceedings of the ETHICOMP 2024. 21th International Conference on the Ethical and Social Impacts of ICT_, pp 90–93, Universidad de La Rioja
+   * [Published paper](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf)
+
 * **Continuous Integration and Delivery in Open Source Development and Pattern Publishing: Lessons Learned With Tool Setup and Pipeline Evolution**, Olaf Zimmermann, Cesare Pautasso, Stefan Kapferer, Mirko Stocker, _IEEE Software (Volume: 41, Issue: 1, Jan.-Feb. 2024)_, pp 9–18, IEEE
    * [Published paper](https://doi.org/10.1109/MS.2023.3322312)
 
