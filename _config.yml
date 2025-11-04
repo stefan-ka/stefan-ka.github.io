@@ -1,7 +1,7 @@
 # Site settings
 title:       Stefan Kapferer
 author:      Stefan Kapferer
-description: "Stefan Kapferer - Software Engineer"
+description: "Stefan Kapferer - Software Architect & Researcher"
 baseurl:     ""
 url:         "http://stefan.kapferer.ch"
 date_format: "%b %-d, %Y"
