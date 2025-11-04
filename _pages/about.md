@@ -3,6 +3,10 @@ layout: page
 title: About me
 permalink: /about/
 tags: about
+redirect_from:
+  - /
+  - /index
+  - /index.html
 ---
 
 <p><img src="/media/ska.jpg" alt="Stefan Kapferer" style="float: left; margin: 0px 30px 10px 0px;" />
