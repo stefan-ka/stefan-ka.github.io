@@ -11,6 +11,20 @@ Open source projects I contribute(d) to:
    * [contextmapper.org](https://contextmapper.org/)
    * [github.com/ContextMapper](https://github.com/ContextMapper)
 
+ * **Value-Driven Analysis and Design (VDAD)**
+   * [ethical-se.github.io/value-driven-analysis-and-design](https://ethical-se.github.io/value-driven-analysis-and-design)
+   * [github.com/ethical-se/value-driven-analysis-and-design](https://github.com/ethical-se/value-driven-analysis-and-design)
+
+ * **Ethical Software Engineering (ESE)**
+   * [github.com/ethical-se/ese-practices](https://github.com/ethical-se/ese-practices)
+
+ * **Cloud Application Lab (OST)**
+   * [github.com/OST-Cloud-Application-Lab](https://github.com/OST-Cloud-Application-Lab)
+
+ * **Interface Refactoring Catalog (IRC)**
+   * [interface-refactoring.github.io](https://interface-refactoring.github.io)
+   * [github.com/Interface-Refactoring](https://github.com/Interface-Refactoring)
+
  * **Microservice Domain-Specific Language (MDSL)**
    * [microservice-api-patterns.github.io/MDSL-Specification/](https://microservice-api-patterns.github.io/MDSL-Specification/)
    * [github.com/Microservice-API-Patterns/MDSL-Specification](https://github.com/Microservice-API-Patterns/MDSL-Specification)

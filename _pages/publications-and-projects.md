@@ -5,7 +5,27 @@ permalink: /publications/
 tags: papers, publications
 ---
 
+### 2025
+
+* **API Refactoring and Reengineering: Distribution Patterns and Evolution Strategies**, Olaf Zimmermann, Stefan Kapferer, Clemens Meier, Mirko Stocker, _Proceedings of the 30th European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP '25)_, Springer
+   * _to be published soon_
+
+* **Refactoring API Endpoints, Operations and Messages**, Mirko Stocker, Stefan Kapferer, Olaf Zimmermann, _Proceedings of the 30th European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP '25)_, Springer
+   * _to be published soon_
+
+* **Domain-Driven Design Representation of Monolith Candidate Decompositions**, Miguel Levezinho, Stefan Kapferer, Olaf Zimmermann, Antonio Rito Silva, _Enterprise Design, Operations, and Computing (EDOC) 2025_, Springer Nature Switzerland
+   * [Published paper](https://link.springer.com/chapter/10.1007/978-3-031-78338-8_10)
+
 ### 2024
+
+* **Value-Driven Analysis and Design: Applying Domain-Driven Practices in Ethical Software Engineering**, Stefan Kapferer, Olaf Zimmermann, Mirko Stocker, _Proceedings of the 29th European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP '24)_, ACM
+   * [Published paper](https://dl.acm.org/doi/pdf/10.1145/3698322.3698332)
+
+* **Towards responsible software engineering: combining value-based processes, agile practices, and green metering**, Stefan Kapferer, Mirko Stocker, Olaf Zimmermann, _2024 IEEE International Symposium on Technology and Society (ISTAS), Puebla, Mexico, 2024, pp. 1-4_, IEEE
+   * [Published paper](https://ieeexplore.ieee.org/abstract/document/10732097)
+
+* **Pattern-oriented API Refactoring: Addressing Design Smells and Stakeholder Concerns**, Mirko Stocker, Olaf Zimmermann, Stefan Kapferer, _Proceedings of the 29th European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP '24)_, ACM
+   * [Published paper](https://dl.acm.org/doi/pdf/10.1145/3698322.3698334)
 
 * **Bringing ethical values into agile software engineering**, Olaf Zimmermann, Mirko Stocker, Stefan Kapferer, _Proceedings of the ETHICOMP 2024. 21th International Conference on the Ethical and Social Impacts of ICT_, pp 90–93, Universidad de La Rioja
    * [Published paper](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf)
