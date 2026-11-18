@@ -5,6 +5,11 @@ permalink: /publications/
 tags: papers, publications
 ---
 
+### 2026
+
+* **Patterns for Managing and Optimizing Serverless Cold Start Latency**, Stefan Kapferer, Mirko Stocker, _Proceedings of the 31st European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP '26)_, Springer
+   * _to be published soon_
+
 ### 2025
 
 * **API Refactoring and Reengineering: Distribution Patterns and Evolution Strategies**, Olaf Zimmermann, Stefan Kapferer, Clemens Meier, Mirko Stocker, _Proceedings of the 30th European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP '25)_, Springer

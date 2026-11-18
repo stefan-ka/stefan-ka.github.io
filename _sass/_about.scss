@@ -1,0 +1,19 @@
+// Profile photo on the about page: floats next to the text on wide screens,
+// is centered above the text on narrow screens (phones).
+.about-photo {
+  float: left;
+  width: 350px;
+  max-width: 40%;
+  height: auto;
+  margin: 0 30px 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about-photo {
+    float: none;
+    display: block;
+    width: 220px;
+    max-width: 70%;
+    margin: 0 auto 1.5rem auto;
+  }
+}

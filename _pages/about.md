@@ -9,12 +9,12 @@ redirect_from:
   - /index.html
 ---
 
-<p><img src="/media/ska.jpg" alt="Stefan Kapferer" style="float: left; margin: 0px 30px 10px 0px;" />
-I am a Software [Engineer | Architect] and a <a href="https://www.ost.ch/de/person/stefan-kapferer-2046" target="_blank">University Lecturer and Researcher</a> at the <a href="https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software" target="_blank">Institute for Software (IFS)</a> of the <a href="https://www.ost.ch/" target="_blank">Eastern Switzerland University of Applied Sciences (OST)</a> in Rapperswil SG (Switzerland). 
+<p><img class="about-photo" src="/media/ska.jpg" alt="Stefan Kapferer" />
+I am a Software [Engineer | Architect] at <a href="https://www.adesso.ch/" target="_blank">adesso Schweiz AG</a> and an <a href="https://www.ost.ch/de/person/stefan-kapferer-2046" target="_blank">External Lecturer</a> in the MAS Software Engineering (MAS SE) at the <a href="https://www.ost.ch/" target="_blank">Eastern Switzerland University of Applied Sciences (OST)</a> in Rapperswil SG (Switzerland). 
 </p>
 <p>
-I'm interested in all kinds of software engineering related topics; especially software architecture and Domain-driven Design (DDD). 
-I am also the founder and project lead of the <a target="_blank" href="https://contextmapper.org/">Context Mapper</a> open source project.
+I'm interested in all kinds of software engineering related topics; especially software architecture, requirements engineering, and domain modelling with Domain-driven Design (DDD) and collaborative modelling. 
+I am also the founder of the <a target="_blank" href="https://contextmapper.org/">Context Mapper</a> OSS project.
 </p>
 
 <p>
